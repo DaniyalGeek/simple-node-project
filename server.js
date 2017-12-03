@@ -6,9 +6,9 @@ var express		=require('express');
  							var bodyParser	=require('body-parser');
  							//App Configurations
  							
- 							app.get('/gep',function(req,res){
+ 							app.get('/',function(req,res){
  								res.send("hello");
  							})
  						//	module.exports = app;
- 						app.listen(8080);
+ 						app.listen(3000);
 
